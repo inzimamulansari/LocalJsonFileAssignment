@@ -16,6 +16,10 @@
 		185695F127BC5A3D007D2DEC /* LocalJsonFileAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185695F027BC5A3D007D2DEC /* LocalJsonFileAssignmentTests.swift */; };
 		185695FB27BC5A3D007D2DEC /* LocalJsonFileAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185695FA27BC5A3D007D2DEC /* LocalJsonFileAssignmentUITests.swift */; };
 		185695FD27BC5A3D007D2DEC /* LocalJsonFileAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185695FC27BC5A3D007D2DEC /* LocalJsonFileAssignmentUITestsLaunchTests.swift */; };
+		1856960A27BD0D8A007D2DEC /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 1856960927BD0D89007D2DEC /* cities.json */; };
+		1856960D27BD0F0E007D2DEC /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856960B27BD0F0D007D2DEC /* DataLoader.swift */; };
+		1856961127BD1010007D2DEC /* cityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856961027BD1010007D2DEC /* cityData.swift */; };
+		1856961327BD125B007D2DEC /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856961227BD125A007D2DEC /* CityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		185695F627BC5A3D007D2DEC /* LocalJsonFileAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalJsonFileAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185695FA27BC5A3D007D2DEC /* LocalJsonFileAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonFileAssignmentUITests.swift; sourceTree = "<group>"; };
 		185695FC27BC5A3D007D2DEC /* LocalJsonFileAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonFileAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1856960927BD0D89007D2DEC /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		1856960B27BD0F0D007D2DEC /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		1856961027BD1010007D2DEC /* cityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityData.swift; sourceTree = "<group>"; };
+		1856961227BD125A007D2DEC /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				185695D927BC5A35007D2DEC /* AppDelegate.swift */,
 				185695DB27BC5A35007D2DEC /* SceneDelegate.swift */,
 				185695DD27BC5A35007D2DEC /* ViewController.swift */,
+				1856961227BD125A007D2DEC /* CityTableViewCell.swift */,
 				185695DF27BC5A35007D2DEC /* Main.storyboard */,
 				185695E227BC5A3D007D2DEC /* Assets.xcassets */,
 				185695E427BC5A3D007D2DEC /* LaunchScreen.storyboard */,
 				185695E727BC5A3D007D2DEC /* Info.plist */,
+				1856960927BD0D89007D2DEC /* cities.json */,
+				1856960B27BD0F0D007D2DEC /* DataLoader.swift */,
+				1856961027BD1010007D2DEC /* cityData.swift */,
 			);
 			path = LocalJsonFileAssignment;
 			sourceTree = "<group>";
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1856960A27BD0D8A007D2DEC /* cities.json in Resources */,
 				185695E627BC5A3D007D2DEC /* LaunchScreen.storyboard in Resources */,
 				185695E327BC5A3D007D2DEC /* Assets.xcassets in Resources */,
 				185695E127BC5A35007D2DEC /* Main.storyboard in Resources */,
@@ -258,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1856961327BD125B007D2DEC /* CityTableViewCell.swift in Sources */,
+				1856960D27BD0F0E007D2DEC /* DataLoader.swift in Sources */,
 				185695DE27BC5A35007D2DEC /* ViewController.swift in Sources */,
+				1856961127BD1010007D2DEC /* cityData.swift in Sources */,
 				185695DA27BC5A35007D2DEC /* AppDelegate.swift in Sources */,
 				185695DC27BC5A35007D2DEC /* SceneDelegate.swift in Sources */,
 			);
